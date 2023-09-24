@@ -14,16 +14,15 @@ library(janitor)
 fitness_survey <- read_csv("D:/p_coursera/1_p/fitness_analysis.csv", show_col_types = FALSE)
 head(fitness_survey)
 ```
-
+We create a new data frame just with the gender Female, because it's the data of our interest.
 ```{r filter data frame}
 filter_fs <- fitness_survey %>%
     filter(gender == 'Female') %>%
   select(age, exc_importance, fitness_level, exc_frequency, barrier_exc_1, exc_type_1,
          balance_diet, healthy, purch_fitness_equipment, exc_motivation_1)
 ```
-
-```{r }
-
+In this part we agroup the females by age, so we obtained the percentege of purchase by age.
+```{r Analysis of purchase equipment and graphic}
  percentege_equipment <- filter_fs %>%
   group_by(age) %>%
   count(purch_fitness_equipment) %>%
@@ -40,8 +39,8 @@ graph_1 <- ggplot(percentege_equipment, aes(x = age, y = percentege, fill = purc
 
 print(graph_1)
 ```
-
-```{r}
+We filter the data to obtain the sum of the females for each activity.
+```{r Analysis of percentege type exercise and graphic}
 percentege_type_exc <- filter_fs %>%
   group_by(exc_type_1) %>%
   count(exc_type_1) %>%
@@ -67,7 +66,5 @@ graph_2 <- ggplot(percentege_type_exc, aes(x="",y=n, fill=exc_type_1, colour=exc
 #ggsave("preferred_exercise_by_women.png", width = 5, height = 5)
 
 print(graph_2)
-
-                    
 ```
 
