@@ -30,12 +30,12 @@ In this part we agroup the females by age, so we obtained the percentege of purc
 
 graph_1 <- ggplot(percentege_equipment, aes(x = age, y = percentege, fill = purch_fitness_equipment, colour = purch_fitness_equipment)) +
   geom_bar(stat = "identity", position = "fill", alpha = 0.5) +
-  labs(x = "Age", y = "Percentege", fill="Purchase?", colour="Purchase?") +
+  labs(x = "Age", y = "Percentage", fill="Purchase?", colour="Purchase?") +
   geom_text(aes(label=percentege), position = position_fill(vjust = 0.5), show.legend = FALSE, color="black") +
-  ggtitle("Percentege of Purchase Equipment by Age", subtitle = "Percentege of purchase made by women according age") +
+  ggtitle("Percentage of Purchase Equipment by Age", subtitle = "Percentage of purchase made by women according age") +
   theme(axis.text.y=element_blank())
 
-#ggsave("percentege_of_purchase_equipment_by_age.png",  width = 6, height = 4.5)
+#ggsave("percentage_of_purchase_equipment_by_age.png",  width = 6, height = 4.5)
 
 print(graph_1)
 ```
