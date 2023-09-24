@@ -5,4 +5,4 @@ I put effort into the creation of this project
 
 I hope you can appreciate the abilities I got during the certificate
 
-You can find a development of all the processes in [REPORT.md](REPORT.md)
+You can find a development of all the processes in [REPORT.md](REPORT.md) or the pdf version in [REPORT.pdf](documents/REPORT.pdf).
