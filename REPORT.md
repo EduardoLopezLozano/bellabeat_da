@@ -38,8 +38,8 @@ _Big Query_ was used to transform the data and select the interest data because 
 
 ## Analyzing
 You can check all the manipulating processes in the following files:
-- Scrip_SQL.Rmd: describes the filtering processes in _Big Query_
-- Scrip_R.Rmd: describes the filtering and creation of graphics in _R_
+- [Script_SQL.Rmd](cleaning_scripts/Script_SQL.Rmd).Rmd: describes the filtering processes in _Big Query_
+- [Script_R.Rmd](cleaning_scripts/Script_R.Rmd): describes the filtering and creation of graphics in _R_
 ## Sharing
 **FitBit Fitness Tracker Data**
 
