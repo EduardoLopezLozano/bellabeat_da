@@ -12,18 +12,23 @@ _Analyse data on the use of smart devices to know how the customers use other de
 + Stakeholders: Bellabeat **marketing analytics team**
 ## Preparing
 ### Credibility and limitations
+
 **[FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)** 
+
 The data is in a relational dataset, in CSV formats
 - The data has a date from **2016** maybe it could be **outdated**, but we only need the trend of people with smart devices
 - Take a sample of **30** random people is a **small** sample
 - The data is **just from FitBit** devices
 - The data has authorizations by 30 people
+
 **[Fitness Analysis](https://www.kaggle.com/datasets/nithilaa/fitness-analysis)**
+  
 The data is in a CSV file
 - The data has dates from ********2019********
 - Take a sample enough big with men and women of different ages
 - The data describe the **fitness behavior** of people
 - The data is authorized by the people involved and
+
 ## Processing
 To clean **FitBit Fitness Tracker Data** and  **Fitness Analysis**, It was used _Kate_ and _Excel_, because the first had some problems with the format of the date and hour, so It was changed to a format that Big Query could read, meanwhile, the second dataset was cleaned in _Excel_ 
 ### Fitness Analysis processing
