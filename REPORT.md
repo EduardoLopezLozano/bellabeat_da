@@ -50,7 +50,7 @@ You can check all the manipulating processes in the following files:
 
 First, we checked that the variable _Id_ was in all the tables from the dataset, and we got a positive result of the query that showed the relationships between tables, so we asked if people spent most of their time doing activities. So we found people spend most of the day sedentary or sleeping on average.
 
-We made a new query to create a new table with the variables of calories burned and total steps by the hour. There is a positive correlation between these two variables which we can see in the visualization Daily Calories Burned by Total Steps. If we watch the visualization closely, we can see that the number of steps is clustered between the origin and the 20 thousand steps daily, which is somehow related to light activity.
+We made a new query to create a new table with the variables of calories burned and total steps by day. There is a positive correlation between these two variables which we can see in the visualization Daily Calories Burned by Total Steps. If we watch the visualization closely, we can see that the number of steps is clustered between the origin and the 20 thousand steps daily, which is somehow related to light activity.
 
 <p align="center"> 
 <img src="viz/daily_average_minutes_of_activity.png" height="300"></center>
