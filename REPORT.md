@@ -37,9 +37,9 @@ It was cleaned in a sheet from _Excel_, so we created a control version of the C
 _R_ was used to transform the data and select the interest data because the data is into one CSV file.
 
 ### FitBit Fitness Tracker Data processing
-It was cleaned using _Kate_ and _Excel_, because there were some problems with the format of the date and hour, so It was changed to a format that _Big Query_ could read. In the same way, data has a register of historical versions in _Big Query_.
+It was cleaned using _Kate_ and _Excel_, because there were some problems with the format of the date and hour, so It was changed to a format that _Big Query_ could read. In the same way, data has a register of historical versions in _Big Query_. _Big Query_ was used to transform the data and select the interest data because it is into some CSV files that can be related to them with SQL.
 
-_Big Query_ was used to transform the data and select the interest data because it is into some CSV files that can be related to them with SQL.
+For the control of versions, we added a clean version of CSV files here in GitHub, in the directory [datasets](datasets).
 
 ## Analyzing
 You can check all the manipulating processes in the following files:
